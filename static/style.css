@@ -1,0 +1,62 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+
+#navbar {
+    margin: 20px;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-family: fantasy;
+    color: black;
+}
+
+#introSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: rebeccapurple;
+    height: 600px;
+    background: url(/shreya.jpg);
+    /* color: blanchedalmond; */
+}
+
+#sponsorSection {
+    background-color: black;
+    height: 300px;
+    font-size: 3rem;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+
+footer {
+    background-color: seagreen;
+    height: 300px;
+}
+
+.small {
+    font-size: 2.5rem;
+}
+
+.large {
+    font-size: 4rem;
+}
