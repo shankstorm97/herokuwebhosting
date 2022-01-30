@@ -2,13 +2,14 @@ const express = require("express");
 const fs = require("fs");
 const path = require("path");
 const app = express();
+const port = process.env.PORT || 8000;
 const bodyparser = require('body-parser');
 const mongoose = require("mongoose");
 main().catch((err) => console.log(err));
 async function main() {
     await mongoose.connect("mongodb://localhost:27017/contactDance");
 }
-const port = 80;
+// const port = 80;
 
 // define mongoose schema
 
